@@ -1,4 +1,3 @@
-
 import { useState } from 'react';
 import { Mail, Github, Linkedin } from 'lucide-react';
 
@@ -46,8 +45,8 @@ const Contact = () => {
                 </div>
                 <div>
                   <p className="font-medium text-gray-800">Email</p>
-                  <a href="mailto:neha12345biswas@gmail.com" className="text-gray-600 hover:text-blue-600 transition-colors">
-                    neha12345biswas@gmail.com
+                  <a href="mailto:itsnehab.official@gmail.com" className="text-gray-600 hover:text-blue-600 transition-colors">
+                    itsnehab.official@gmail.com
                   </a>
                 </div>
               </div>
