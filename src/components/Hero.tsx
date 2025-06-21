@@ -98,7 +98,7 @@ const Hero = () => {
             </div>
           </div>
 
-          {/* Enhanced Image Section with your profile picture */}
+          {/* Enhanced Image Section with your new profile picture */}
           <div className="lg:w-1/2 flex justify-center">
             <div className="relative group">
               {/* Background blur effects */}
@@ -109,7 +109,7 @@ const Hero = () => {
               <div className="relative bg-white/90 backdrop-blur-sm p-2 rounded-2xl shadow-2xl group-hover:shadow-3xl transition-all duration-300 border border-white/50">
                 <div className="relative overflow-hidden rounded-xl">
                   <img
-                    src="https://postimage.me/images/2025/06/18/Untitled-design.png"
+                    src="/lovable-uploads/ff18a98b-99b0-40e1-ac54-f774b12b0b3b.png"
                     alt="Neha Biswas"
                     className="w-80 h-96 object-cover transition-transform duration-500 group-hover:scale-105"
                   />

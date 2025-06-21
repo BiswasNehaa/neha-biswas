@@ -15,7 +15,7 @@ const About = () => {
           <div className="space-y-6">
             <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-8 shadow-lg border border-white/50">
               <p className="text-lg text-gray-700 leading-relaxed mb-6">
-                I'm a Computer Science Engineering student at <span className="font-semibold text-blue-600">Acharya Institute of Technology</span>. 
+                I'm a Computer Science Engineering student at <span className="font-semibold text-blue-600">Acharya Institute of Technology, Bangalore</span>. 
                 I'm a creative thinker, fast learner, and someone who enjoys exploring new ideas and technologies.
               </p>
               <p className="text-lg text-gray-700 leading-relaxed">
@@ -56,7 +56,7 @@ const About = () => {
                 </h3>
                 <div className="text-gray-700">
                   <p className="font-medium text-gray-800">B.E. Computer Science Engineering</p>
-                  <p className="text-sm text-gray-600 mt-1">Acharya Institute of Technology</p>
+                  <p className="text-sm text-gray-600 mt-1">Acharya Institute of Technology, Bangalore</p>
                   <div className="inline-flex items-center mt-2 px-3 py-1 bg-gradient-to-r from-blue-500 to-teal-500 text-white text-sm rounded-full">
                     2023 – 2027
                   </div>
@@ -75,7 +75,7 @@ const About = () => {
               <div className="relative bg-white/90 backdrop-blur-sm p-3 rounded-full shadow-2xl group-hover:shadow-3xl transition-all duration-300 border-2 border-white/70">
                 <div className="relative overflow-hidden rounded-full">
                   <img
-                    src="https://postimage.me/images/2025/06/18/Untitled-design.png"
+                    src="/lovable-uploads/ff18a98b-99b0-40e1-ac54-f774b12b0b3b.png"
                     alt="Neha Biswas"
                     className="w-80 h-80 object-cover transition-transform duration-500 group-hover:scale-110"
                   />
