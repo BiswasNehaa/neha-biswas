@@ -9,6 +9,15 @@ const Hero = () => {
     }
   };
 
+  const handleImageLoad = () => {
+    console.log('Hero image loaded successfully');
+  };
+
+  const handleImageError = (e: React.SyntheticEvent<HTMLImageElement, Event>) => {
+    console.error('Hero image failed to load:', e);
+    console.error('Image src:', e.currentTarget.src);
+  };
+
   return (
     <section id="home" className="min-h-screen flex items-center justify-center relative overflow-hidden">
       {/* Enhanced background with gradient mesh */}
@@ -112,6 +121,8 @@ const Hero = () => {
                     src="/lovable-uploads/ff18a98b-99b0-40e1-ac54-f774b12b0b3b.png"
                     alt="Neha Biswas"
                     className="w-80 h-96 object-cover transition-transform duration-500 group-hover:scale-105"
+                    onLoad={handleImageLoad}
+                    onError={handleImageError}
                   />
                   {/* Overlay gradient */}
                   <div className="absolute inset-0 bg-gradient-to-t from-blue-900/20 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>

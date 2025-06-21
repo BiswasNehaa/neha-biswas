@@ -1,5 +1,14 @@
 
 const About = () => {
+  const handleImageLoad = () => {
+    console.log('About image loaded successfully');
+  };
+
+  const handleImageError = (e: React.SyntheticEvent<HTMLImageElement, Event>) => {
+    console.error('About image failed to load:', e);
+    console.error('Image src:', e.currentTarget.src);
+  };
+
   return (
     <section id="about" className="py-20 bg-gradient-to-br from-white via-blue-50/30 to-purple-50/20">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -78,6 +87,8 @@ const About = () => {
                     src="/lovable-uploads/ff18a98b-99b0-40e1-ac54-f774b12b0b3b.png"
                     alt="Neha Biswas"
                     className="w-80 h-80 object-cover transition-transform duration-500 group-hover:scale-110"
+                    onLoad={handleImageLoad}
+                    onError={handleImageError}
                   />
                   {/* Subtle overlay */}
                   <div className="absolute inset-0 bg-gradient-to-t from-blue-900/10 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-full"></div>
