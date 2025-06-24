@@ -1,4 +1,5 @@
 
+
 const About = () => {
   const handleImageLoad = () => {
     console.log('About image loaded successfully');
@@ -84,7 +85,7 @@ const About = () => {
               <div className="relative bg-white/90 backdrop-blur-sm p-3 rounded-full shadow-2xl group-hover:shadow-3xl transition-all duration-300 border-2 border-white/70">
                 <div className="relative overflow-hidden rounded-full">
                   <img
-                    src="/profile-photo.png"
+                    src="/lovable-uploads/d718eaf8-9124-4689-ba5b-9a8019ce8b27.png"
                     alt="Neha Biswas"
                     className="w-80 h-80 object-cover transition-transform duration-500 group-hover:scale-110"
                     onLoad={handleImageLoad}
