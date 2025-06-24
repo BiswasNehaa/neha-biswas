@@ -84,7 +84,7 @@ const About = () => {
               <div className="relative bg-white/90 backdrop-blur-sm p-3 rounded-full shadow-2xl group-hover:shadow-3xl transition-all duration-300 border-2 border-white/70">
                 <div className="relative overflow-hidden rounded-full">
                   <img
-                    src="/lovable-uploads/ff18a98b-99b0-40e1-ac54-f774b12b0b3b.png"
+                    src="/profile-photo.png"
                     alt="Neha Biswas"
                     className="w-80 h-80 object-cover transition-transform duration-500 group-hover:scale-110"
                     onLoad={handleImageLoad}
