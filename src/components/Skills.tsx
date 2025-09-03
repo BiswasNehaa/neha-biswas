@@ -86,7 +86,6 @@ const Skills = () => {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl sm:text-4xl font-bold text-gray-800 mb-4">Technical Skills</h2>
-          <div className="w-20 h-1 bg-gradient-to-r from-blue-600 to-teal-600 mx-auto"></div>
           <p className="mt-4 text-gray-600 max-w-2xl mx-auto">
             A comprehensive toolkit for building innovative solutions
           </p>
@@ -135,16 +134,6 @@ const Skills = () => {
                       {skill}
                     </span>
                   ))}
-                </div>
-
-                {/* Progress indicator */}
-                <div className="mt-4">
-                  <div className="w-full bg-gray-200/50 rounded-full h-1">
-                    <div 
-                      className={`h-1 bg-gradient-to-r ${colorScheme.accent} rounded-full transition-all duration-1000 group-hover:w-full`}
-                      style={{ width: `${Math.min(category.skills.length * 20, 100)}%` }}
-                    ></div>
-                  </div>
                 </div>
               </div>
             );
