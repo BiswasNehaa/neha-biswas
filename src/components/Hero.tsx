@@ -118,7 +118,7 @@ const Hero = () => {
               <div className="relative bg-white/90 backdrop-blur-sm p-2 rounded-2xl shadow-2xl group-hover:shadow-3xl transition-all duration-300 border border-white/50">
                 <div className="relative overflow-hidden rounded-xl">
                   <img
-                    src="/lovable-uploads/d718eaf8-9124-4689-ba5b-9a8019ce8b27.png"
+                    src="/profile-photo-new.png"
                     alt="Neha Biswas"
                     className="w-80 h-96 object-cover transition-transform duration-500 group-hover:scale-105"
                     onLoad={handleImageLoad}
