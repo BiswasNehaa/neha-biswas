@@ -1,5 +1,5 @@
 
-import { Code, Database, Palette, Brain, Users } from 'lucide-react';
+import { Code, Database, Palette, Brain, Users, Globe } from 'lucide-react';
 
 const Skills = () => {
   const skillCategories = [
@@ -12,10 +12,17 @@ const Skills = () => {
     },
     {
       title: "Databases & Tools",
-      skills: ["SQL", "DBMS", "MongoDB", "Git", "VS Code"],
+      skills: ["SQL", "DBMS", "MongoDB", "PostgreSQL", "Git", "VS Code"],
       color: "teal",
       icon: Database,
       description: "Database management and development tools"
+    },
+    {
+      title: "Web Technologies",
+      skills: ["HTML", "CSS", "JavaScript"],
+      color: "orange",
+      icon: Globe,
+      description: "Frontend web development technologies"
     },
     {
       title: "Design Tools",
@@ -26,7 +33,7 @@ const Skills = () => {
     },
     {
       title: "CS Concepts",
-      skills: ["Operating Systems", "DSA"],
+      skills: ["Operating Systems", "DSA", "Computer Networks", "Project Management"],
       color: "pink",
       icon: Brain,
       description: "Fundamental computer science concepts"
@@ -55,6 +62,13 @@ const Skills = () => {
         border: "border-teal-200/50",
         accent: "from-teal-500 to-teal-600",
         skillBg: "bg-teal-100/70 text-teal-800 border-teal-200/60"
+      },
+      orange: {
+        bg: "from-orange-50 to-orange-100/50",
+        text: "text-orange-700",
+        border: "border-orange-200/50",
+        accent: "from-orange-500 to-orange-600",
+        skillBg: "bg-orange-100/70 text-orange-800 border-orange-200/60"
       },
       purple: {
         bg: "from-purple-50 to-purple-100/50",
