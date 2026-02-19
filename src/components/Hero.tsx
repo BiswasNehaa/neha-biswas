@@ -92,7 +92,7 @@ const Hero = () => {
             <div className="pt-8 border-t border-gray-200/50">
               <div className="flex items-center justify-center lg:justify-start gap-8 text-sm text-gray-600">
                 <div className="text-center">
-                  <div className="text-2xl font-bold text-gray-800">2024</div>
+                  <div className="text-2xl font-bold text-gray-800">2026</div>
                   <div>Current Year</div>
                 </div>
                 <div className="text-center">
