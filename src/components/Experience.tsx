@@ -25,7 +25,7 @@ const Experience = () => {
           <h2 className="text-3xl sm:text-4xl font-bold text-gray-800 mb-4">Experience</h2>
           <div className="w-20 h-1 bg-gradient-to-r from-blue-600 to-teal-600 mx-auto"></div>
           <p className="mt-4 text-gray-600 max-w-2xl mx-auto">
-            Hands-on industry experience in software development and documentation
+            Hands-on experience building and understanding real-world enterprise software systems
           </p>
         </div>
 
