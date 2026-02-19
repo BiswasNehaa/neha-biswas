@@ -7,7 +7,7 @@ const Experience = () => {
       role: "Software Engineer Intern",
       company: "Iskraemeco India Private Limited",
       duration: "Oct 2025 – Nov 2025",
-      location: "India",
+      location: "Kolkata, India",
       bullets: [
         "Worked with the software development team on a Workforce Management System used for managing field workforce involved in metering installation activities.",
         "Assisted in understanding system architecture, operational workflows, and data flow across workforce processes.",
