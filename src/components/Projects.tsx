@@ -15,6 +15,20 @@ const Projects = () => {
       image: "https://images.unsplash.com/photo-1593113598332-cd288d649433?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
       githubUrl: "https://github.com/BiswasNehaa/DBMS-Proj",
       category: "Database Management"
+    },
+    {
+      title: "SonicShare: Acoustic P2P Transfer",
+      description: "A decentralized, serverless file-sharing system that uses sound frequencies to pair devices for purely anonymous data transfer.",
+      technologies: ["WebRTC / PeerJS", "Web Audio API", "JavaScript (ES6)"],
+      features: [
+        "Acoustic Handshaking: Zero-contact pairing using sound waves",
+        "Serverless Architecture: Direct device-to-device transfer",
+        "Privacy-First Design: Fully anonymous with no accounts or logging",
+        "Future-Ready: Blockchain-based IP hashing for ultimate anonymity"
+      ],
+      image: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+      githubUrl: "#",
+      category: "Peer-to-Peer Systems"
     }
   ];
 
