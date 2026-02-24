@@ -17,7 +17,7 @@ const Projects = () => {
       category: "Database Management"
     },
     {
-      title: "SonicShare: Acoustic P2P Transfer",
+      title: "JustPost: A P2P File Sharing System",
       description: "A decentralized, serverless file-sharing system that uses sound frequencies to pair devices for purely anonymous data transfer.",
       technologies: ["WebRTC / PeerJS", "Web Audio API", "JavaScript (ES6)"],
       features: [
@@ -26,8 +26,9 @@ const Projects = () => {
         "Privacy-First Design: Fully anonymous with no accounts or logging",
         "Future-Ready: Blockchain-based IP hashing for ultimate anonymity"
       ],
-      image: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
-      githubUrl: "#",
+      image: "/images/justpost-preview.png",
+      githubUrl: "https://github.com/BiswasNehaa/Sonic-Share",
+      liveUrl: "https://kaleidoscopic-pegasus-2a8242.netlify.app/",
       category: "Peer-to-Peer Systems"
     }
   ];
@@ -75,9 +76,16 @@ const Projects = () => {
                   >
                     <Github className="w-5 h-5 text-gray-700" />
                   </a>
-                  <button className="p-3 bg-blue-600 rounded-full shadow-lg hover:bg-blue-700 transition-colors">
-                    <ExternalLink className="w-5 h-5 text-white" />
-                  </button>
+                  {project.liveUrl && (
+                    <a
+                      href={project.liveUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="p-3 bg-blue-600 rounded-full shadow-lg hover:bg-blue-700 transition-colors"
+                    >
+                      <ExternalLink className="w-5 h-5 text-white" />
+                    </a>
+                  )}
                 </div>
               </div>
 
