@@ -5,6 +5,36 @@ const Projects = () => {
   // Most recent projects first
   const projects = [
     {
+      title: "TrustChain: Transparent Donation Platform",
+      description: "A blockchain-based platform designed to restore donor confidence. Ensures funds stay locked in a smart contract until a designated Verifier confirms the charity's request, making 'stolen funds' mathematically impossible.",
+      technologies: ["Solidity", "React.js", "Ethers.js", "MetaMask"],
+      features: [
+        "Role-Based Access Control: Auto-detects Donor, Charity, or Verifier roles",
+        "Three-Step Escrow: Donor → Contract → Charity with Verifier approval",
+        "Live Vault Tracking: Real-time contract balance from the blockchain",
+        "Immutable Audit Trail: On-chain record of every request and approval"
+      ],
+      image: "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+      githubUrl: "https://github.com/BiswasNehaa/Donation-Fund-Management--Blockchain",
+      category: "Blockchain",
+      status: "ongoing"
+    },
+    {
+      title: "JustPost V2.0: Zero-Trace File Transfer",
+      description: "An advanced privacy-focused file transfer platform for journalists and activists. Combines an off-chain privacy relay with an on-chain notary, allowing users to prove file integrity without exposing identity or content.",
+      technologies: ["Node.js & Express", "Solidity", "Ethers.js", "React.js", "WebSockets"],
+      features: [
+        "Metadata Shielding: IP-stripping relay for total anonymity",
+        "On-Chain Notarization: File hashes anchored to Ethereum Sepolia Testnet",
+        "Ephemeral Data-Plane: Files exist only in transit, zero server storage",
+        "Decentralized Coordination: Blockchain-based room lifecycle management"
+      ],
+      image: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+      githubUrl: "https://github.com/BiswasNehaa/Sonic-Share",
+      category: "Privacy & Security",
+      status: "ongoing"
+    },
+    {
       title: "JustPost: A P2P File Sharing System",
       description: "A decentralized, serverless file-sharing system that uses sound frequencies to pair devices for purely anonymous data transfer.",
       technologies: ["WebRTC / PeerJS", "Web Audio API", "JavaScript (ES6)"],
@@ -61,10 +91,15 @@ const Projects = () => {
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                 
                 {/* Category Badge */}
-                <div className="absolute top-4 left-4">
+                <div className="absolute top-4 left-4 flex gap-2">
                   <span className="px-3 py-1 bg-white/90 backdrop-blur-sm text-gray-800 rounded-full text-sm font-medium border border-white/50">
                     {project.category}
                   </span>
+                  {project.status === 'ongoing' && (
+                    <span className="px-3 py-1 bg-amber-400/90 backdrop-blur-sm text-amber-900 rounded-full text-sm font-bold border border-amber-300/50">
+                      🚧 Ongoing
+                    </span>
+                  )}
                 </div>
 
                 {/* Action Buttons - Show on Hover */}
