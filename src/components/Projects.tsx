@@ -2,20 +2,8 @@
 import { ExternalLink, Github } from 'lucide-react';
 
 const Projects = () => {
+  // Most recent projects first
   const projects = [
-    {
-      title: "Leftover Food Donation System",
-      description: "A socially impactful system that connects donors and NGOs to manage leftover food effectively.",
-      technologies: ["SQL", "DBMS"],
-      features: [
-        "Pickup request tracking",
-        "Feedback system", 
-        "Delivery status management"
-      ],
-      image: "https://images.unsplash.com/photo-1593113598332-cd288d649433?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
-      githubUrl: "https://github.com/BiswasNehaa/DBMS-Proj",
-      category: "Database Management"
-    },
     {
       title: "JustPost: A P2P File Sharing System",
       description: "A decentralized, serverless file-sharing system that uses sound frequencies to pair devices for purely anonymous data transfer.",
@@ -30,7 +18,20 @@ const Projects = () => {
       githubUrl: "https://github.com/BiswasNehaa/Sonic-Share",
       liveUrl: "https://kaleidoscopic-pegasus-2a8242.netlify.app/",
       category: "Peer-to-Peer Systems"
-    }
+    },
+    {
+      title: "Leftover Food Donation System",
+      description: "A socially impactful system that connects donors and NGOs to manage leftover food effectively.",
+      technologies: ["SQL", "DBMS"],
+      features: [
+        "Pickup request tracking",
+        "Feedback system",
+        "Delivery status management"
+      ],
+      image: "https://images.unsplash.com/photo-1593113598332-cd288d649433?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+      githubUrl: "https://github.com/BiswasNehaa/DBMS-Proj",
+      category: "Database Management"
+    },
   ];
 
   return (
