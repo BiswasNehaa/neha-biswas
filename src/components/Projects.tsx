@@ -5,7 +5,7 @@ const Projects = () => {
   // Most recent projects first
   const projects = [
     {
-      title: "TrustChain: Transparent Donation Platform",
+      title: "TrustChain: Decentralized Charity Escrow System",
       description: "A blockchain-based platform designed to restore donor confidence. Ensures funds stay locked in a smart contract until a designated Verifier confirms the charity's request, making 'stolen funds' mathematically impossible.",
       technologies: ["Solidity", "React.js", "Ethers.js", "MetaMask"],
       features: [
@@ -14,7 +14,7 @@ const Projects = () => {
         "Live Vault Tracking: Real-time contract balance from the blockchain",
         "Immutable Audit Trail: On-chain record of every request and approval"
       ],
-      image: "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+      image: "/images/trustchain-preview.png",
       githubUrl: "https://github.com/BiswasNehaa/Donation-Fund-Management--Blockchain",
       category: "Blockchain",
       status: "ongoing"
