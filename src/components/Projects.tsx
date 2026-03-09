@@ -95,11 +95,6 @@ const Projects = () => {
                   <span className="px-3 py-1 bg-white/90 backdrop-blur-sm text-gray-800 rounded-full text-sm font-medium border border-white/50">
                     {project.category}
                   </span>
-                  {project.status === 'ongoing' && (
-                    <span className="px-3 py-1 bg-amber-400/90 backdrop-blur-sm text-amber-900 rounded-full text-sm font-bold border border-amber-300/50">
-                      🚧 Ongoing
-                    </span>
-                  )}
                 </div>
 
                 {/* Action Buttons - Show on Hover */}
