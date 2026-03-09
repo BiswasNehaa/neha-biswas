@@ -75,33 +75,6 @@ const About = () => {
             </div>
           </div>
 
-          <div className="flex justify-center">
-            <div className="relative group">
-              {/* Animated background rings */}
-              <div className="absolute inset-0 bg-gradient-to-br from-blue-400/30 to-teal-400/30 rounded-full transform scale-110 opacity-60 animate-pulse"></div>
-              <div className="absolute inset-0 bg-gradient-to-br from-purple-400/20 to-pink-400/20 rounded-full transform scale-125 opacity-40 animate-pulse delay-1000"></div>
-              
-              {/* Main circular image container */}
-              <div className="relative bg-white/90 backdrop-blur-sm p-3 rounded-full shadow-2xl group-hover:shadow-3xl transition-all duration-300 border-2 border-white/70">
-                <div className="relative overflow-hidden rounded-full">
-                  <img
-                    src="/profile-photo-new.png"
-                    alt="Neha Biswas"
-                    className="w-80 h-80 object-cover transition-transform duration-500 group-hover:scale-110"
-                    onLoad={handleImageLoad}
-                    onError={handleImageError}
-                  />
-                  {/* Subtle overlay */}
-                  <div className="absolute inset-0 bg-gradient-to-t from-blue-900/10 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-full"></div>
-                </div>
-                
-                {/* Floating accent elements */}
-                <div className="absolute top-4 right-4 w-4 h-4 bg-gradient-to-r from-yellow-400 to-orange-400 rounded-full animate-bounce delay-500"></div>
-                <div className="absolute bottom-6 left-6 w-3 h-3 bg-gradient-to-r from-pink-400 to-purple-400 rounded-full animate-pulse delay-1500"></div>
-                <div className="absolute top-1/2 right-2 w-2 h-2 bg-gradient-to-r from-green-400 to-teal-400 rounded-full animate-ping"></div>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
     </section>
