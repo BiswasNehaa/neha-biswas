@@ -25,6 +25,13 @@ const Skills = () => {
       description: "Frontend web development technologies"
     },
     {
+      title: "Blockchain / Web3",
+      skills: ["Solidity", "Ethereum", "Smart Contracts", "Sepolia Testnet", "MetaMask"],
+      color: "amber",
+      icon: Link,
+      description: "Decentralized application development"
+    },
+    {
       title: "Design Tools",
       skills: ["Figma"],
       color: "purple",
