@@ -31,8 +31,8 @@ const Projects = () => {
       ],
       image: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
       githubUrl: "https://github.com/BiswasNehaa/Sonic-Share",
-      category: "Privacy & Security",
-      status: "ongoing"
+      liveUrl: "https://just-post-block-chain.vercel.app/",
+      category: "Privacy & Security"
     },
     {
       title: "JustPost: A P2P File Sharing System",
@@ -95,11 +95,6 @@ const Projects = () => {
                   <span className="px-3 py-1 bg-white/90 backdrop-blur-sm text-gray-800 rounded-full text-sm font-medium border border-white/50">
                     {project.category}
                   </span>
-                  {project.status === 'ongoing' && (
-                    <span className="px-3 py-1 bg-amber-400/90 backdrop-blur-sm text-amber-900 rounded-full text-sm font-bold border border-amber-300/50">
-                      🚧 Ongoing
-                    </span>
-                  )}
                 </div>
 
                 {/* Action Buttons - Show on Hover */}
