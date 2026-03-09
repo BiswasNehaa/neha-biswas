@@ -22,7 +22,7 @@ const Projects = () => {
     {
       title: "JustPost V2.0: Zero-Trace File Transfer",
       description: "An advanced privacy-focused file transfer platform for journalists and activists. Combines an off-chain privacy relay with an on-chain notary, allowing users to prove file integrity without exposing identity or content.",
-      technologies: ["Node.js & Express", "Solidity", "Ethers.js", "React.js", "WebSockets"],
+      technologies: ["React / Vite", "Node.js / Express", "Solidity / Sepolia", "WebRTC", "Vercel & Render"],
       features: [
         "Metadata Shielding: IP-stripping relay for total anonymity",
         "On-Chain Notarization: File hashes anchored to Ethereum Sepolia Testnet",
