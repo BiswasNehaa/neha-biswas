@@ -1,5 +1,5 @@
 
-import { Code, Database, Palette, Brain, Users, Globe } from 'lucide-react';
+import { Code, Database, Palette, Brain, Users, Globe, Link } from 'lucide-react';
 
 const Skills = () => {
   const skillCategories = [
@@ -23,6 +23,13 @@ const Skills = () => {
       color: "orange",
       icon: Globe,
       description: "Frontend web development technologies"
+    },
+    {
+      title: "Blockchain / Web3",
+      skills: ["Solidity", "Ethereum", "Smart Contracts", "Sepolia Testnet", "MetaMask"],
+      color: "amber",
+      icon: Link,
+      description: "Decentralized application development"
     },
     {
       title: "Design Tools",
@@ -90,6 +97,13 @@ const Skills = () => {
         border: "border-green-200/50",
         accent: "from-green-500 to-green-600",
         skillBg: "bg-green-100/70 text-green-800 border-green-200/60"
+      },
+      amber: {
+        bg: "from-amber-50 to-amber-100/50",
+        text: "text-amber-700",
+        border: "border-amber-200/50",
+        accent: "from-amber-500 to-amber-600",
+        skillBg: "bg-amber-100/70 text-amber-800 border-amber-200/60"
       }
     };
     return colors[color as keyof typeof colors];
