@@ -52,7 +52,7 @@ const Projects = () => {
     {
       title: "Leftover Food Donation System",
       description: "A socially impactful system that connects donors and NGOs to manage leftover food effectively.",
-      technologies: ["SQL", "DBMS"],
+      technologies: ["Python", "Tkinter", "SQL", "DBMS"],
       features: [
         "Pickup request tracking",
         "Feedback system",
