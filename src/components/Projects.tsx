@@ -16,8 +16,8 @@ const Projects = () => {
       ],
       image: "/images/trustchain-preview.png",
       githubUrl: "https://github.com/BiswasNehaa/Donation-Fund-Management--Blockchain",
-      category: "Blockchain",
-      status: "ongoing"
+      liveUrl: "https://donation-fund-management-blockchain.vercel.app/",
+      category: "Blockchain"
     },
     {
       title: "JustPost V2.0: Zero-Trace File Transfer",
