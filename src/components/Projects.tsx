@@ -7,7 +7,7 @@ const Projects = () => {
     {
       title: "TrustChain: Decentralized Charity Escrow System",
       description: "A blockchain-based platform designed to restore donor confidence. Ensures funds stay locked in a smart contract until a designated Verifier confirms the charity's request, making 'stolen funds' mathematically impossible.",
-      technologies: ["Solidity", "React.js", "Ethers.js", "MetaMask"],
+      technologies: ["Solidity", "React.js", "Ethers.js", "MetaMask", "Smart Contracts"],
       features: [
         "Role-Based Access Control: Auto-detects Donor, Charity, or Verifier roles",
         "Three-Step Escrow: Donor → Contract → Charity with Verifier approval",
