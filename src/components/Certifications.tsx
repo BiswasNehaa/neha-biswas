@@ -20,6 +20,10 @@ const Certifications = () => {
       title: "IT Fundamentals for Everyone",
       provider: "Coursera",
     },
+    {
+      title: "Advanced RAG Applications with Vector Databases",
+      provider: "LinkedIn Learning",
+    },
   ];
 
   const nonTechnicalCerts = [

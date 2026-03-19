@@ -1,5 +1,5 @@
 
-import { Code, Database, Palette, Brain, Users, Globe, Link } from 'lucide-react';
+import { Code, Database, Palette, Brain, Users, Globe, Link, Sparkles } from 'lucide-react';
 
 const Skills = () => {
   const skillCategories = [
@@ -30,6 +30,13 @@ const Skills = () => {
       color: "amber",
       icon: Link,
       description: "Decentralized application development"
+    },
+    {
+      title: "AI / LLMs",
+      skills: ["Embeddings", "RAG (Basic)"],
+      color: "indigo",
+      icon: Sparkles,
+      description: "Exploring AI, large language models and retrieval-augmented generation"
     },
     {
       title: "Design Tools",
@@ -104,6 +111,13 @@ const Skills = () => {
         border: "border-amber-200/50",
         accent: "from-amber-500 to-amber-600",
         skillBg: "bg-amber-100/70 text-amber-800 border-amber-200/60"
+      },
+      indigo: {
+        bg: "from-indigo-50 to-indigo-100/50",
+        text: "text-indigo-700",
+        border: "border-indigo-200/50",
+        accent: "from-indigo-500 to-indigo-600",
+        skillBg: "bg-indigo-100/70 text-indigo-800 border-indigo-200/60"
       }
     };
     return colors[color as keyof typeof colors];
