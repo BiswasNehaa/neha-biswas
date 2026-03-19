@@ -2,10 +2,11 @@
 import { Award, BookOpen } from 'lucide-react';
 
 const Certifications = () => {
+  // Most recent certifications first
   const technicalCerts = [
     {
-      title: "Introduction to C Programming Language",
-      provider: "Infosys Springboard",
+      title: "Advanced RAG Applications with Vector Databases",
+      provider: "LinkedIn Learning",
     },
     {
       title: "Machine Learning Crash Course",
@@ -21,8 +22,8 @@ const Certifications = () => {
       provider: "Coursera",
     },
     {
-      title: "Advanced RAG Applications with Vector Databases",
-      provider: "LinkedIn Learning",
+      title: "Introduction to C Programming Language",
+      provider: "Infosys Springboard",
     },
   ];
 
