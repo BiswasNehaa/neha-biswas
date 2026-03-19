@@ -32,6 +32,13 @@ const Skills = () => {
       description: "Decentralized application development"
     },
     {
+      title: "AI / LLMs",
+      skills: ["Embeddings", "RAG (Basic)"],
+      color: "indigo",
+      icon: Sparkles,
+      description: "Exploring AI, large language models and retrieval-augmented generation"
+    },
+    {
       title: "Design Tools",
       skills: ["Figma"],
       color: "purple",
