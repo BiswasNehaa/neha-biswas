@@ -111,6 +111,13 @@ const Skills = () => {
         border: "border-amber-200/50",
         accent: "from-amber-500 to-amber-600",
         skillBg: "bg-amber-100/70 text-amber-800 border-amber-200/60"
+      },
+      indigo: {
+        bg: "from-indigo-50 to-indigo-100/50",
+        text: "text-indigo-700",
+        border: "border-indigo-200/50",
+        accent: "from-indigo-500 to-indigo-600",
+        skillBg: "bg-indigo-100/70 text-indigo-800 border-indigo-200/60"
       }
     };
     return colors[color as keyof typeof colors];
