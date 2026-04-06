@@ -6,6 +6,23 @@ const Projects = () => {
   // Most recent projects first
   const projects = [
     {
+      title: "Feedback Lens Aura: Advanced Customer Intelligence System",
+      description: "A high-precision NLP framework that transforms raw customer feedback into strategic business intelligence through differential analysis and trend tracking.",
+      technologies: ["VADER NLP", "Python (FastAPI)", "React.js (Vite)", "Tailwind CSS", "Pandas"],
+      features: [
+        "Differential Sentiment Analysis: Cross-compares sentiment scores to identify competitive gaps",
+        "Temporal Concept Drift Detection: Flags emerging product issues or market trends",
+        "Severity Impact Scoring: Weighted calculation prioritizing critical 'Red Zone' feedback",
+        "Automated Suggestion Engine: Real-time business recommendations",
+        "Visualization Dashboard: Real-time KPI tracking and sentiment pulse graphs"
+      ],
+      image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop",
+      githubUrl: "https://github.com/BiswasNehaa/Major-Project",
+      liveUrl: "",
+      category: "AI / NLP",
+      ongoing: true
+    },
+    {
       title: "TrustChain: Decentralized Charity Escrow System",
       description: "A blockchain-based platform designed to restore donor confidence. Ensures funds stay locked in a smart contract until a designated Verifier confirms the charity's request, making 'stolen funds' mathematically impossible.",
       technologies: ["Solidity", "React.js", "Ethers.js", "MetaMask", "Smart Contracts"],
