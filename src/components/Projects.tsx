@@ -1,6 +1,7 @@
 
 import { ExternalLink, Github } from 'lucide-react';
 import justpostV2Cover from '@/assets/justpost-v2-cover.png';
+import feedbackLensAuraCover from '@/assets/feedback-lens-aura-cover.png';
 
 const Projects = () => {
   // Most recent projects first
