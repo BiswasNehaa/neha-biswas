@@ -17,7 +17,7 @@ const Projects = () => {
         "Automated Suggestion Engine: Real-time business recommendations",
         "Visualization Dashboard: Real-time KPI tracking and sentiment pulse graphs"
       ],
-      image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop",
+      image: feedbackLensAuraCover,
       githubUrl: "https://github.com/BiswasNehaa/Major-Project",
       liveUrl: "",
       category: "AI / NLP",
