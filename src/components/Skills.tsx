@@ -12,7 +12,7 @@ const Skills = () => {
     },
     {
       title: "Databases & Tools",
-      skills: ["SQL", "MySQL", "DBMS", "MongoDB", "PostgreSQL", "Vector Databases (FAISS)", "Git", "VS Code"],
+      skills: ["SQL", "MySQL", "MongoDB", "PostgreSQL", "Vector Databases (FAISS)", "Git", "VS Code"],
       color: "teal",
       icon: Database,
       description: "Database management and development tools"
