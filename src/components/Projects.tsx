@@ -7,6 +7,22 @@ const Projects = () => {
   // Most recent projects first
   const projects = [
     {
+      title: "AI Academic Advisor",
+      description: "A smart RAG-based recommendation system that suggests courses based on career goals and credit limits, powered by a searchable knowledge base of real course data.",
+      technologies: ["Python", "LangChain", "Groq (Llama 3.3)", "FAISS", "Vector Databases"],
+      features: [
+        "Smart Course Recommendations: Suggests courses based on career goals and credit limits",
+        "FAISS Knowledge Base: Searchable vector store ensuring AI uses real course data instead of guessing",
+        "Automated Prerequisite Checks: Prevents students from picking ineligible classes",
+        "Live Chat Interface: Real-time academic consulting via high-speed LLM integration"
+      ],
+      image: "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+      githubUrl: "",
+      liveUrl: "",
+      category: "AI / RAG",
+      ongoing: true
+    },
+    {
       title: "Feedback Lens Aura: Advanced Customer Intelligence System",
       description: "A high-precision NLP framework that transforms raw customer feedback into strategic business intelligence through differential analysis and trend tracking.",
       technologies: ["VADER NLP", "Python (FastAPI)", "React.js (Vite)", "Tailwind CSS", "Pandas"],
