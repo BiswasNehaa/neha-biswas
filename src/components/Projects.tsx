@@ -17,7 +17,7 @@ const Projects = () => {
         "Live Chat Interface: Real-time academic consulting via high-speed LLM integration"
       ],
       image: "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
-      githubUrl: "",
+      githubUrl: "https://github.com/BiswasNehaa/Build-an-AI-Academic-Advisor-RAG-Based-System-",
       liveUrl: "",
       category: "AI / RAG",
       ongoing: true
