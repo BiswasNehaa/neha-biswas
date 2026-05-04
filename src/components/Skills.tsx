@@ -1,5 +1,5 @@
 
-import { Code, Database, Palette, Brain, Users, Globe, Link, Sparkles } from 'lucide-react';
+import { Code, Database, Palette, Brain, Users, Globe, Link, Sparkles, Cloud, BarChart3 } from 'lucide-react';
 
 const Skills = () => {
   const skillCategories = [
@@ -12,7 +12,7 @@ const Skills = () => {
     },
     {
       title: "Databases & Tools",
-      skills: ["SQL", "DBMS", "MongoDB", "PostgreSQL", "Git", "VS Code"],
+      skills: ["SQL", "MySQL", "DBMS", "MongoDB", "PostgreSQL", "Vector Databases (FAISS)", "Git", "VS Code"],
       color: "teal",
       icon: Database,
       description: "Database management and development tools"
@@ -33,10 +33,24 @@ const Skills = () => {
     },
     {
       title: "AI / LLMs",
-      skills: ["Embeddings", "RAG (Basic)"],
+      skills: ["LangChain", "OpenAI API", "Groq API", "Hugging Face Transformers", "NLP", "Text Preprocessing", "RAG Pipelines", "NLTK", "spaCy", "Embeddings"],
       color: "indigo",
       icon: Sparkles,
-      description: "Exploring AI, large language models and retrieval-augmented generation"
+      description: "Building intelligent applications with LLMs, NLP and retrieval-augmented generation"
+    },
+    {
+      title: "Data Science & Libraries",
+      skills: ["Pandas", "Matplotlib", "PyMuPDF"],
+      color: "rose",
+      icon: BarChart3,
+      description: "Python libraries for data analysis, visualization and document processing"
+    },
+    {
+      title: "Backend & Cloud",
+      skills: ["FastAPI", "AWS EC2", "Render", "Cloud Deployment"],
+      color: "cyan",
+      icon: Cloud,
+      description: "Backend frameworks and cloud deployment infrastructure"
     },
     {
       title: "Design Tools",
@@ -47,7 +61,7 @@ const Skills = () => {
     },
     {
       title: "CS Concepts",
-      skills: ["Operating Systems", "DSA", "Computer Networks", "Project Management"],
+      skills: ["Operating Systems", "DBMS", "DSA", "Computer Networks", "Project Management"],
       color: "pink",
       icon: Brain,
       description: "Fundamental computer science concepts"
@@ -118,6 +132,20 @@ const Skills = () => {
         border: "border-indigo-200/50",
         accent: "from-indigo-500 to-indigo-600",
         skillBg: "bg-indigo-100/70 text-indigo-800 border-indigo-200/60"
+      },
+      rose: {
+        bg: "from-rose-50 to-rose-100/50",
+        text: "text-rose-700",
+        border: "border-rose-200/50",
+        accent: "from-rose-500 to-rose-600",
+        skillBg: "bg-rose-100/70 text-rose-800 border-rose-200/60"
+      },
+      cyan: {
+        bg: "from-cyan-50 to-cyan-100/50",
+        text: "text-cyan-700",
+        border: "border-cyan-200/50",
+        accent: "from-cyan-500 to-cyan-600",
+        skillBg: "bg-cyan-100/70 text-cyan-800 border-cyan-200/60"
       }
     };
     return colors[color as keyof typeof colors];
