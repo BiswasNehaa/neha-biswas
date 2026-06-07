@@ -1,7 +1,7 @@
 
 import { ExternalLink, Github } from 'lucide-react';
 import justpostV2Cover from '@/assets/justpost-v2-cover.png';
-import feedbackLensAuraCover from '@/assets/feedback-lens-aura-cover.png';
+import academicAdvisorCover from '@/assets/academic-advisor-cover.png.asset.json';
 
 const Projects = () => {
   // Most recent projects first
@@ -16,28 +16,10 @@ const Projects = () => {
         "Automated Prerequisite Checks: Prevents students from picking ineligible classes",
         "Live Chat Interface: Real-time academic consulting via high-speed LLM integration"
       ],
-      image: "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+      image: academicAdvisorCover.url,
       githubUrl: "https://github.com/BiswasNehaa/Build-an-AI-Academic-Advisor-RAG-Based-System-",
       liveUrl: "",
-      category: "AI / RAG",
-      ongoing: true
-    },
-    {
-      title: "Feedback Lens Aura: Advanced Customer Intelligence System",
-      description: "A high-precision NLP framework that transforms raw customer feedback into strategic business intelligence through differential analysis and trend tracking.",
-      technologies: ["VADER NLP", "Python (FastAPI)", "React.js (Vite)", "Tailwind CSS", "Pandas"],
-      features: [
-        "Differential Sentiment Analysis: Cross-compares sentiment scores to identify competitive gaps",
-        "Temporal Concept Drift Detection: Flags emerging product issues or market trends",
-        "Severity Impact Scoring: Weighted calculation prioritizing critical 'Red Zone' feedback",
-        "Automated Suggestion Engine: Real-time business recommendations",
-        "Visualization Dashboard: Real-time KPI tracking and sentiment pulse graphs"
-      ],
-      image: feedbackLensAuraCover,
-      githubUrl: "https://github.com/BiswasNehaa/Major-Project",
-      liveUrl: "",
-      category: "AI / NLP",
-      ongoing: true
+      category: "AI / RAG"
     },
     {
       title: "TrustChain: Decentralized Charity Escrow System",
@@ -130,11 +112,6 @@ const Projects = () => {
                   <span className="px-3 py-1 bg-white/90 backdrop-blur-sm text-gray-800 rounded-full text-sm font-medium border border-white/50">
                     {project.category}
                   </span>
-                  {project.ongoing && (
-                    <span className="px-3 py-1 bg-amber-500/90 backdrop-blur-sm text-white rounded-full text-sm font-medium animate-pulse">
-                      🚧 Ongoing
-                    </span>
-                  )}
                 </div>
 
                 {/* Action Buttons - Show on Hover */}
