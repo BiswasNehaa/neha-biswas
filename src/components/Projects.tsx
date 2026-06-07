@@ -16,28 +16,10 @@ const Projects = () => {
         "Automated Prerequisite Checks: Prevents students from picking ineligible classes",
         "Live Chat Interface: Real-time academic consulting via high-speed LLM integration"
       ],
-      image: "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+      image: academicAdvisorCover.url,
       githubUrl: "https://github.com/BiswasNehaa/Build-an-AI-Academic-Advisor-RAG-Based-System-",
       liveUrl: "",
-      category: "AI / RAG",
-      ongoing: true
-    },
-    {
-      title: "Feedback Lens Aura: Advanced Customer Intelligence System",
-      description: "A high-precision NLP framework that transforms raw customer feedback into strategic business intelligence through differential analysis and trend tracking.",
-      technologies: ["VADER NLP", "Python (FastAPI)", "React.js (Vite)", "Tailwind CSS", "Pandas"],
-      features: [
-        "Differential Sentiment Analysis: Cross-compares sentiment scores to identify competitive gaps",
-        "Temporal Concept Drift Detection: Flags emerging product issues or market trends",
-        "Severity Impact Scoring: Weighted calculation prioritizing critical 'Red Zone' feedback",
-        "Automated Suggestion Engine: Real-time business recommendations",
-        "Visualization Dashboard: Real-time KPI tracking and sentiment pulse graphs"
-      ],
-      image: feedbackLensAuraCover,
-      githubUrl: "https://github.com/BiswasNehaa/Major-Project",
-      liveUrl: "",
-      category: "AI / NLP",
-      ongoing: true
+      category: "AI / RAG"
     },
     {
       title: "TrustChain: Decentralized Charity Escrow System",
