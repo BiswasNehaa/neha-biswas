@@ -18,7 +18,7 @@ const Projects = () => {
       ],
       image: academicAdvisorCover.url,
       githubUrl: "https://github.com/BiswasNehaa/Build-an-AI-Academic-Advisor-RAG-Based-System-",
-      liveUrl: "https://biswasnehaa-build-an-ai-academic-advisor-rag-base-appapp-kww49o.streamlit.app/",
+      liveUrl: "https://ai-academic-rag-based-system.streamlit.app/",
       category: "AI / RAG"
     },
     {
